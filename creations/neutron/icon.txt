@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/Minteck-Projects/Neutron-Core/trunk/resources/image/siteicon.png

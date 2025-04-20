@@ -1,0 +1,27 @@
+{
+    "remotePath": "/mnt/minteckrolt-main",
+    "host": "minteck.ro.lt",
+    "username": "root",
+    "password": "password",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": "/home/creature/.ssh/id_rsa",
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

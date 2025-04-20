@@ -1,0 +1,241 @@
+#navigation-bar {
+    border-bottom: 1px solid #252525 !important;
+    background: #111 !important;
+}
+
+body, #selector, #main-box {
+    background: #111 !important;
+    color: white !important;
+}
+
+#logo {
+    color: white !important;
+}
+
+#main-container, .navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    opacity: .8;
+}
+
+.navbar-brand:active, .nav-link:active, .navbar-brand:focus, .nav-link:focus {
+    opacity: .7;
+}
+
+li.list-group-item {
+    background: #222;
+    color: white;
+}
+
+li.list-group-item:hover {
+    background: #333 !important;
+    color: white !important;
+}
+
+li.list-group-item:active {
+    background: #252525 !important;
+    color: white !important;
+}
+
+#loader, #loader-box {
+    background: #151515 !important;
+}
+
+#search-box, #counts {
+    color: white !important;
+}
+
+#search {
+    background: #222;
+    border: 1px solid #222;
+    color: white;
+}
+
+.card {
+    background: #222;
+    color: white;
+}
+
+.modal-content {
+    color: black;
+}
+
+.alert-warning {
+    color: #fff3cd;
+    background-color: #8564044a;
+    border-color: #8564049c;
+}
+
+.alert-secondary {
+    color: white !important;
+    background: #252525 !important;
+    border: 1px solid black !important;
+}
+
+#close-btn {
+    filter: invert(1);
+}
+
+html, body {
+    background: black !important;
+    color: white !important;
+}
+
+#statusbar, #tabs {
+    background: #222 !important;
+    color: white !important;
+}
+
+.tab:not(.tab-active) img {
+    filter: invert(1) !important;
+}
+
+.loader {
+    background: rgba(10, 10, 10, .75) !important;
+}
+
+.loader img {
+    filter: invert(1) !important;
+}
+
+#tabs .tab.tab-active {
+    border-bottom-color: white !important;
+}
+
+.list-group-item {
+    background-color: #151515 !important;
+}
+
+.btn-light {
+    background: transparent !important;
+    color: white !important;
+}
+
+.dropdown-menu {
+    filter: invert(1) !important;
+}
+
+#panes {
+    background: black !important;
+}
+
+.list-group-item-action {
+    color: white !important;
+}
+
+.modal-content {
+    background-color: #151515 !important;
+}
+
+.modal-header button.close {
+    filter: invert(1) !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid #222 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #222 !important;
+}
+
+a.list-group-item:hover {
+    background-color: #222 !important;
+}
+
+a.list-group-item:active, a.list-group-item:focus {
+    background-color: #252525 !important;
+}
+
+.card, #footer-space {
+    background: #222 !important;
+}
+
+.card.bg-dark {
+    background: #333 !important;
+}
+
+.bg-warning {
+    background-color: #8e6c06 !important;
+}
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-color: rgba(34, 34, 34, 0.75) !important;
+    backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 9999px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background-color: #888;
+    transition: background 200ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #222;
+}
+
+#project-hero {
+    height: 65vh;
+    margin-top: -84px;
+    margin-bottom: 16px;
+    background-size: cover;
+    background-position: center;
+}
+
+#apps_outer {
+    background: transparent;
+    border: none;
+}
+
+#apps_outer::after {
+    display: none;
+}
+
+#apps_path {
+    fill: #fff;
+}
+
+#apps_outer:hover #apps_path {
+    opacity: .75;
+}
+
+#apps_outer:active #apps_path, #apps_outer:focus #apps_path {
+    opacity: .5;
+}
+
+.app-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+    filter: invert(1);
+}
+
+.app-title {
+    vertical-align: middle;
+}
+
+.code {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
